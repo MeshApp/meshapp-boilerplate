@@ -1,0 +1,47 @@
+{
+  "name": "meshapp-starter-component",
+  "version": "1.0.0",
+  "description": "Base project for creating React components and publish them to npm",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nmartinezb3/npm-react-component-starter.git"
+  },
+  "bugs": {
+    "url": "git@github.com:nmartinezb3/npm-react-component-starter.git"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "webpack",
+    "npm"
+  ],
+  "author": "Ricardo Pimentel",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.3",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "webpack": "^3.6.0"
+  }
+}
