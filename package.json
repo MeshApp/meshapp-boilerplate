@@ -1,7 +1,7 @@
 {
   "name": "meshapp-starter-component",
   "version": "1.0.0",
-  "description": "Base project for creating React components and publish them to npm",
+  "description": "Base project for creating React components for MeshApp",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.0.0"
